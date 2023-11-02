@@ -39,11 +39,14 @@
             label4 = new Label();
             dataGridView1 = new DataGridView();
             btnReadAll = new Button();
+<<<<<<< HEAD
             label5 = new Label();
             numExpFood = new NumericUpDown();
             numExpWater = new NumericUpDown();
             label6 = new Label();
             label7 = new Label();
+=======
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numExpFood).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numExpWater).BeginInit();
@@ -51,31 +54,51 @@
             // 
             // btnInsert
             // 
+<<<<<<< HEAD
             btnInsert.Location = new Point(643, 88);
+=======
+            btnInsert.Location = new Point(485, 122);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             btnInsert.Name = "btnInsert";
             btnInsert.Size = new Size(94, 29);
             btnInsert.TabIndex = 0;
             btnInsert.Text = "Add";
             btnInsert.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             btnInsert.Click += button1_Click;
             // 
             // txtfood
             // 
             txtfood.Location = new Point(234, 39);
+=======
+            btnInsert.Click += btnInsert_Click_1;
+            // 
+            // txtfood
+            // 
+            txtfood.Location = new Point(234, 35);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             txtfood.Name = "txtfood";
             txtfood.Size = new Size(125, 27);
             txtfood.TabIndex = 1;
             // 
             // txtMissingFood
             // 
+<<<<<<< HEAD
             txtMissingFood.Location = new Point(234, 131);
+=======
+            txtMissingFood.Location = new Point(234, 83);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             txtMissingFood.Name = "txtMissingFood";
             txtMissingFood.Size = new Size(125, 27);
             txtMissingFood.TabIndex = 2;
             // 
             // txtWater
             // 
+<<<<<<< HEAD
             txtWater.Location = new Point(234, 88);
+=======
+            txtWater.Location = new Point(234, 130);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             txtWater.Name = "txtWater";
             txtWater.Size = new Size(125, 27);
             txtWater.TabIndex = 3;
@@ -90,7 +113,11 @@
             // label1
             // 
             label1.AutoSize = true;
+<<<<<<< HEAD
             label1.Location = new Point(145, 42);
+=======
+            label1.Location = new Point(145, 38);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             label1.Name = "label1";
             label1.Size = new Size(65, 20);
             label1.TabIndex = 5;
@@ -99,7 +126,11 @@
             // label2
             // 
             label2.AutoSize = true;
+<<<<<<< HEAD
             label2.Location = new Point(91, 138);
+=======
+            label2.Location = new Point(145, 90);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             label2.Name = "label2";
             label2.Size = new Size(119, 20);
             label2.TabIndex = 6;
@@ -108,7 +139,11 @@
             // label3
             // 
             label3.AutoSize = true;
+<<<<<<< HEAD
             label3.Location = new Point(128, 95);
+=======
+            label3.Location = new Point(145, 137);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             label3.Name = "label3";
             label3.Size = new Size(82, 20);
             label3.TabIndex = 8;
@@ -117,7 +152,11 @@
             // label4
             // 
             label4.AutoSize = true;
+<<<<<<< HEAD
             label4.Location = new Point(74, 183);
+=======
+            label4.Location = new Point(145, 183);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             label4.Name = "label4";
             label4.Size = new Size(136, 20);
             label4.TabIndex = 7;
@@ -135,12 +174,17 @@
             // 
             // btnReadAll
             // 
+<<<<<<< HEAD
             btnReadAll.Location = new Point(643, 58);
+=======
+            btnReadAll.Location = new Point(495, 56);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             btnReadAll.Name = "btnReadAll";
             btnReadAll.Size = new Size(94, 29);
             btnReadAll.TabIndex = 10;
             btnReadAll.Text = "Read All";
             btnReadAll.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             btnReadAll.Click += button2_Click_1;
             // 
             // label5
@@ -184,17 +228,24 @@
             label7.Size = new Size(147, 20);
             label7.TabIndex = 15;
             label7.Text = "Expected Water (ml):";
+=======
+            btnReadAll.Click += btnReadAll_Click_1;
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+<<<<<<< HEAD
             ClientSize = new Size(959, 564);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(numExpWater);
             Controls.Add(numExpFood);
             Controls.Add(label5);
+=======
+            ClientSize = new Size(800, 450);
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
             Controls.Add(btnReadAll);
             Controls.Add(dataGridView1);
             Controls.Add(label3);
@@ -229,10 +280,13 @@
         private Label label4;
         private DataGridView dataGridView1;
         private Button btnReadAll;
+<<<<<<< HEAD
         private Label label5;
         private NumericUpDown numExpFood;
         private NumericUpDown numExpWater;
         private Label label6;
         private Label label7;
+=======
+>>>>>>> 9c783497dcf175db3ccf5f17b316c768d9d285b7
     }
 }
