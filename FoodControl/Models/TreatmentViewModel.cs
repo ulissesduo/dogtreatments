@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace FoodControl.Models
 {
-    public class Treatment
+    public class TreatmentViewModel
     {
-        public int Id { get; set; }
         public int Food { get; set; }
         public int MissingFood { get; set; }
         public int Water { get; set; }
         public int MissingWater { get; set; }
-        public DateTime Date { get; set; }
-
     }
 }
