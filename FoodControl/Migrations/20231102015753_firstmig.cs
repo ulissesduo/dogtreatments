@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace FoodControl.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class firstmig : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -20,7 +21,7 @@ namespace FoodControl.Migrations
                     MissingFood = table.Column<int>(type: "INTEGER", nullable: false),
                     Water = table.Column<int>(type: "INTEGER", nullable: false),
                     MissingWater = table.Column<int>(type: "INTEGER", nullable: false),
-                    Date = table.Column<string>(type: "TEXT", nullable: false)
+                    Date = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

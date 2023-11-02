@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TCF8+c2P/JUzlDvt4KUwNxVlbmOjD2+Tkj7xfx5HYYeuvp6vq12jXIMXfsAurJxMEqlFKYUibpb26QgOQwSDaA==",
+  "dgSpecHash": "QkbvUGFwehXpi70vcxwZybBeFmUFmxDWwo777NxhPdiP7NH55GtOdsLtXRGyx0xQl5ubb4nQeX2JY/hlZfjS1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\uliss\\source\\repos\\FoodControl\\FoodControl\\FoodControl.csproj",
+  "projectFilePath": "C:\\Users\\uliss\\OneDrive\\Área de Trabalho\\FoodControl\\FoodControl\\FoodControl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\uliss\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\uliss\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",

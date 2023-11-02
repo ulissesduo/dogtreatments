@@ -5,7 +5,7 @@
 namespace FoodControl.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialTeste : Migration
+    public partial class firstmigsss : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
