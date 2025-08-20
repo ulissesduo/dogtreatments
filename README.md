@@ -33,8 +33,3 @@ This tool is especially helpful for dogs with medical conditions that affect app
 - **Version Control:** Git & GitHub  
 
 ---
-
-
-
-   ```bash
-   git clone https://github.com/yourusername/dog-feeding-tracker.git
